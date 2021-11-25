@@ -3,8 +3,7 @@ import logging
 from aiogram.dispatcher.filters import Command
 from aiogram.types import Message, CallbackQuery
 
-from keyboards.inline.choice_buttons import choiceOnTime, choiceReason1, choiceWithin5, choiceWithin24, choiceAccepted1, \
-    choiceReason2, choiceAccepted3, choiceReason3
+from keyboards.inline.choice_buttons import choiceOnTime, choiceReason1, choiceWithin5, choiceWithin24, choiceAccepted1, choiceReason2, choiceAccepted3, choiceReason3
 from loader import dp, bot
 
 
